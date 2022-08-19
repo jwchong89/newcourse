@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>M340L (change this in .config.yml) | Syllabus</title>
+  <title>M340 (change this in config) | Syllabus</title>
   <meta name="description" content="10-708 - Probabilistic Graphical Models - Carnegie Mellon University - Spring 2019
 ">
 
@@ -17,6 +17,10 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="canonical" href="/Syllabus/">
 
+  
+  <!-- Load Latex JS -->
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/latex.js@0.11.1/dist/latex.component.js"></script>
   
 </head>
 
@@ -28,7 +32,7 @@
   <div class="wrapper">
 
     <span class="site-title">
-      <a class="page-link" href="http://localhost:4000/">M340L (change this in .config.yml)</a>
+      <a class="page-link" href="http://localhost:4000/">M340 (change this in config)</a>
     </span>
 
     <nav class="site-nav">
@@ -224,12 +228,12 @@ We ask that you retain any copyright notices, and include a written notice indic
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Matrices and Matrix Calculation</h2>
+    <h2 class="footer-heading">Course Title</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">Jacky Chong</li></ul>
+          <li class="p-name">Jacky Chong</li><li><a class="u-email" href="mailto:10708-instructor@cs.cmu.edu">10708-instructor@cs.cmu.edu</a></li></ul>
       </div>
 
       <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
@@ -254,9 +258,24 @@ We ask that you retain any copyright notices, and include a written notice indic
 <script src="/assets/js/common.js"></script>
 
 
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.1/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
 
 
 
+<!-- Load Anchor JS -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js"></script>
+<script>
+  anchors.options.visible = 'hover';
+  anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>
+
+
+
+<!-- Adjust LaTeX JS -->
+<script src="/assets/js/latex.js"></script>
 
 
 <!-- Include custom icon fonts -->

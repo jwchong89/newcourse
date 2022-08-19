@@ -2,26 +2,62 @@
 # Site settings
 # -----------------------------------------------------------------------------
 author: Jacky Chong
-name: M340L (change this in .config.yml)
-title: Matrices and Matrix Calculation
-email:
+name: M340 (change this in config)
+title: Course Title
+email: 10708-instructor@cs.cmu.edu
 description: >
   10-708 - Probabilistic Graphical Models - Carnegie Mellon University - Spring 2019
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-
-url: https://gchongg.github.io # the base hostname & protocol for your site
+url: # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: gchongg
+github_username:
 google_analytics:
 youtube_channel:
-rss:# notes rss
+rss: # notes rss
 
-  # ----------------------------:-------------------------------------------------
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: Course Notes
+blog_description: The notes written by students and edited by instructors
+
+# Pagination
+paginate: 10
+permalink: /notes/:title/
+paginate_path: /notes/page:num/
+
+text:
+  pagination:
+    newer: "Newer"
+    older: "Older"
+
+# Comments
+disqus_shortname: # put your disqus shortname
+
+# Optional features
+show_social_icons: true
+enable_anchorjs: true
+enable_latexjs: true
+enable_katex: true
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  announcements:
+    defaults:
+      layout: post
+    output: true
+    permalink: /announcements/:path/
+
+announcements_limit: 5
+
+# -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
 

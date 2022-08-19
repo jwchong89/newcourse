@@ -1,0 +1,51 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+author: Jacky Chong 
+name: M340L (change this in .config.yml)
+title: Matrices and Matrix Calculation 
+email: 
+description: >
+  10-708 - Probabilistic Graphical Models - Carnegie Mellon University - Spring 2019
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+url:  # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: 
+google_analytics: 
+youtube_channel: 
+rss:  # notes rss
+
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Includes & excludes
+include: ['_pages']
+exclude: [vendor]
+
+# Plug-ins
+plugins:
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jemoji
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.10.1"
+anchorjs_version: "3.2.2"
+latexjs_version: "0.11.1"
+
+theme: jekyll-theme-slate
